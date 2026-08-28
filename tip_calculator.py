@@ -1,1 +1,6 @@
-
+base_cost = input("Enter base cost: ")
+markup_percent = input("Enter markup percent: ")
+base_cost = float(base_cost)
+markup_percent = float(markup_percent)
+final_price = base_cost * (1 + markup_percent / 100)
+print(f"Final price: ${final_price:,.2f}")
